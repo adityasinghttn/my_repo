@@ -1,3 +1,4 @@
 abcd
 efgh
 ijkl
+These are the new lines added to the code.
