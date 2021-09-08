@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 efg
 
-=======
->>>>>>> parent of 2d4343a... Added some data
