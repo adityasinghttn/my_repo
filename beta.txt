@@ -3,5 +3,8 @@ abacus
 donarruma
 buffon
 rintin
+<<<<<<< HEAD
 doraemon
 pikachu
+=======
+>>>>>>> parent of 1e3ba37... checking for revert changes
