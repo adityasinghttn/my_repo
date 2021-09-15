@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to check the Area of Circle.</p>
+
+<button onclick="myFunction()">Check Circle's Area</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var s = prompt("Please Enter the radius of circle", "5");
+  var area = Math.PI*s*s
+  if (s != null)  {
+    document.write(area) ;
+  }
+}
+</script>
+
+</body>
+</html>

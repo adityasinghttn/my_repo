@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Check the employee table.</p>
+
+
+
+
+<p id="demo"></p>
+
+<script>
+let employee = [
+  {name:'amit', age:21, salary:1500, DOB:'15-03-1998'},
+  {name:'ajay', age:23, salary:15000, DOB:'15-03-1938'},
+  {name:'amish', age:22, salary:1600, DOB:'15-03-1938'},
+  {name:'amitabh', age:20, salary:1700, DOB:'15-03-1978'},
+  {name:'ankur', age:27, salary:15050, DOB:'15-03-1988'},
+  {name:'anand', age:22, salary:1200, DOB:'15-03-1994'},
+  {name:'asadhya', age:29, salary:1340, DOB:'15-03-1996'},
+  {name:'abhi', age:28, salary:10000, DOB:'15-03-1997'},
+  {name:'arun', age:26, salary:2500, DOB:'15-03-1999'},
+]
+const sel = employee.filter(e => e.salary>5000);
+console.log(sel);
+
+
+
+</script>
+
+</body>
+</html>

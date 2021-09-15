@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to Calculate Simple Interest.</p>
+
+<button onclick="myFunction()">Interest Calculator</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var time_a = prompt("Please Enter Time in years", "1");
+  var amount = prompt("Please Enter The Amount", "1000");
+  var rate = prompt("Please Enter the rate", "5");
+  var interest = (amount*rate*time_a)/100;
+  if (time_a != null && amount != null && rate != null)  {
+    document.getElementById("demo").innerHTML =
+    "Simple Interest =  " + interest ;
+  }
+}
+</script>
+
+</body>
+</html>

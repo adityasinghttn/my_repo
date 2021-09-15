@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to check palindrome.</p>
+
+<button onclick="myFunction()">Check Palindrome</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var s = prompt("Please Enter a String", "xyz");
+  var s1 = s.split('').reverse().join('');
+  if (s1 === s)  {
+    document.write("Yes") ;
+  }
+  else {
+    document.write("No") ;
+  }
+}
+</script>
+
+</body>
+</html>
